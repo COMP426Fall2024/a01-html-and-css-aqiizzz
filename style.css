@@ -12,7 +12,9 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: auto;
+    padding-top: 3%;
+    margin: auto;
+    margin-bottom: 0;
 }
 
 .font {
@@ -23,15 +25,16 @@ h1 {
 
 .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin: 7%;
 }
 
 img {
     display:block;
-    max-width: 30%;
-    max-height: auto; 
-    margin:auto;  
+    max-width: 45%;
+    max-height: auto;
+    margin:auto;
 }
 
 figcaption {
@@ -43,6 +46,12 @@ figcaption {
 
 P {
     font-size: 20px;
+}
+
+label, select {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .book {
@@ -82,16 +91,12 @@ caption {
   }
 
 thead, tbody {
-    background-color: rgba(241, 241, 233, 0.898);
+    background-color: #f9e8d0;
 }
 
-  th, td {
+th {
     border: 1px solid #381924;
     padding: 8px 10px;
-  }
-  
-  td:last-of-type {
-    text-align: center;
   }
 
 img.role {
@@ -115,7 +120,7 @@ img.role {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    width: 250px; 
+    width: 280px; 
     text-align: center; 
 }
 
@@ -155,7 +160,7 @@ a:hover {
 }
 
 a:visited {
-    color: #83a78d;
+    color: #815f25;
 }
 
 footer {
@@ -169,10 +174,14 @@ footer {
     padding: 10px 20px;
     font-size: 16px;
     color: #4d4030;
-    background-color: #869d9d;
+    background-color: #f9e8d0;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     margin: 30px; 
     cursor: pointer;
+}
+
+#black_myth {
+    border: none;
 }
